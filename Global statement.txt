@@ -1,0 +1,8 @@
+Global statement
+>>> def add_enz(*new):
+... global enz
+... enz = enz + list(new)
+...
+>>> add_enz(’BamHI’, ’HindIII’)
+>>> enz
+[ ’EcoRI’, ’BamHI’, ’HindIII’]
